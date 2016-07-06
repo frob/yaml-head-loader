@@ -2,7 +2,7 @@
   "name": "yaml-head-loader",
   "version": "1.0.1",
   "description": "Parses yaml head frontmatter or whatever.",
-  "repository": "github.com/frob/yaml-head-loader.git",
+  "repository": "git@github.com:frob/yaml-head-loader.git",
   "main": "index.js",
   "scripts": {
     "test": "test.js"

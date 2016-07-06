@@ -16,7 +16,7 @@ function splitByMeta (str, yamlBlockRegEx) {
 
   let tailString = '';
   const cleanUp = function (str, yamlBlockRegEx) {
-    tailString = str.replace(yamlBlockRegEx, '');
+    tailString = str.replace(yamlBlockRegEx, '').trim();
   }
 
   const meta = extractMeta(str, cleanUp);

@@ -3,6 +3,8 @@
 let fs = require('fs');
 var yml = require('./index.js');
 
+
+// Read in the test file and make some assertions.
 fs.readFile('./test/test.yml', 'utf-8', (err, testYAML) => {
   if (err) {
     console.log(err);

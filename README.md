@@ -15,10 +15,10 @@ Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursu
 
 The resulting data structure would be:
 
-```json
-{ 
+```js
+{
   foo: 'Pellentesque Bibendum Consectetur Quam Fringilla',
   bar: 'Ligula Vulputate',
-  tail: 'Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.' 
+  tail: 'Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
 }
 ```

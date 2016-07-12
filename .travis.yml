@@ -7,4 +7,8 @@ node_js:
 # Use faster Docker architecture on Travis.
 sudo: false
 
-script:        npm test
+script: npm test
+
+addons:
+  code_climate:
+    repo_token: ba9cf96edbf3cdfd475fa87afa6261f5f5296050214247e0f34c09e3a8ba98c2
